@@ -23,8 +23,8 @@ class MercadolivreSpider(scrapy.Spider):
                 'old_price_centavos': cents[0] if len(cents) > 0 else None,
                 'new_price_reais': prices[1] if len(prices) > 1 else None,
                 'new_price_centavos': cents[1] if len(cents) > 1 else None,
-                'reviews_rating_number': product.css('span.ui-search-reviews__rating-number::text').get(),
-                'reviews_amount': product.css('span.ui-search-reviews__amount::text').get()
+                'reviews_rating_number': product.css('span.poly-reviews__rating::text').get(),
+                'reviews_amount': product.css('span.poly-reviews__total::text').get()
             }
         
         if self.page_count < self.max_pages:
