@@ -6,9 +6,9 @@ Uma ETL em Python para Monitoramento de Preço
 
 ## Uma ETL em Python para Monitoramento de Preço
 
-Solução em Python para estratégias de pricing
+Solução em Python para estratégias de pricing.
 Temos uma pipeline e uma ETL em Python que coleta, consolida e gera insights
-sobre determinada cadeira de produtos
+sobre determinada cadeia de produtos.
 
 ## Arquitetura
 Uma ETL em Python para Web Scraping
